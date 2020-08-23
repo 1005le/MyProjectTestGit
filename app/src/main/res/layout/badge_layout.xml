@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/badge_frame_layout"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/ic_tab_noti" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/cart_badge"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_gravity="right|end|top|center_horizontal"-->
+<!--            android:layout_marginTop="3dp"-->
+<!--            android:layout_marginEnd="-5dp"-->
+<!--            android:layout_marginRight="-5dp"-->
+<!--            android:background="@drawable/background_new_notification"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="3dp"-->
+<!--            android:text="0"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="10sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/badge_text_view"-->
+<!--        android:layout_width="19dp"-->
+<!--        android:layout_height="19dp"-->
+<!--        android:textSize="11sp"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:background="@drawable/background_new_notification"-->
+<!--        android:layout_gravity="top|center_horizontal"-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="2dp"-->
+<!--        android:visibility="gone"-->
+<!--        tools:text="9+" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/counter_badge"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_gravity="right|end|top|center_horizontal"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:ellipsize="end"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:padding="3dp"-->
+<!--        android:background="@drawable/background_new_notification"/>-->
+<!--</RelativeLayout>-->
+
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    style="?attr/actionButtonStyle"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:clipToPadding="false"-->
+<!--    android:focusable="true">-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/ic_tab_noti" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/cart_badge"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_gravity="right|end|top|center_horizontal"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:layout_marginEnd="-5dp"-->
+<!--        android:layout_marginRight="-5dp"-->
+<!--        android:background="@drawable/background_new_notification"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="3dp"-->
+<!--        android:text="0"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="10sp" />-->
+
+<!--</FrameLayout>-->
+
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:tint="@android:color/white"
+            android:src="@drawable/ic_tab_noti" />
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/cart_badge"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_gravity="top|center_horizontal"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/background_new_notification"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:textSize="10dp"
+    android:visibility="visible"
+    tools:text="5" />
+</FrameLayout>
