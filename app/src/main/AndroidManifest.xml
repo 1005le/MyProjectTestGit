@@ -34,22 +34,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".barcode.ReaderActivity"
-            android:screenOrientation="portrait"
-            android:stateNotNeeded="true"
-            tools:ignore="LockedOrientationActivity"
-            tools:replace="android:screenOrientation">
-            <intent-filter>
-                <action android:name="android.intent.action.RUN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".barcode.GenerorActivity" />
-        <activity android:name=".barcode.Main2Activity">
-
-        </activity>
-        <activity
             android:name=".PlayMusicActivity"
             android:label="@string/title_activity_play_music"
             android:theme="@style/AppTheme.NoActionBar" />
